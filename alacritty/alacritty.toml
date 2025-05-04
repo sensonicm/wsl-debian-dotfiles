@@ -1,0 +1,21 @@
+[general]
+import = [ "C:\\Users\\WinUserName\\AppData\\Roaming\\alacritty\\alacritty-theme\\themes\\catppuccin_macchiato.toml" ]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding = { x = 15, y = 15 }
+decorations = "None"
+opacity = 1
+startup_mode = "Maximized"
+
+[font]
+normal = { family = "MesloLGS Nerd Font Mono", style = "Regular" }
+size = 12
+
+[selection]
+save_to_clipboard = true
+
+[terminal]
+shell = { program = "wsl", args = [ "-d", "Debian", "--cd", "~" ] }
