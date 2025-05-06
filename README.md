@@ -77,7 +77,7 @@ sudo apt update
 And install the necessary packages:
 
 ```bash
-sudo apt install -y git tree zsh gpg pass zip unzip curl wget tmux gcc bsdmainutils htop fzf bat ripgrep build-essential
+sudo apt install -y git tree zsh gpg pass zip unzip curl wget tmux gcc bsdmainutils htop fzf bat ripgrep build-essential net-tools
 ```
 
 ### Setting up Git
@@ -752,4 +752,3 @@ After installation, the `VS Code` will detect the installed `WSL system` and off
 ---
 
 Ilya Birman's program replaces typographic symbols on the keyboard layout. The program description and installation file can be found on the [official website](https://ilyabirman.ru/typography-layout/).
-
