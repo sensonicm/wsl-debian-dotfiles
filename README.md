@@ -688,7 +688,7 @@ wsl --setdefault NewDistroName
 You can also set the default user name for the restored distribution:
 
 ```bash
-NewDistroName config --default-user YourUserName
+wsl --manage NewDistroName --set-default-user YourUserName
 ```
 
 You can see the full list of commands and capabilities on the [WSL help site](https://learn.microsoft.com/ru-ru/windows/wsl/basic-commands).
